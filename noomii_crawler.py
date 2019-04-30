@@ -57,7 +57,6 @@ def scrape_noomii(driver, website, csv_file):
                 # driver.find_element_by_xpath(link).click();
             except NoSuchElementException:
                 next = None
-                print('Marry Baby')
     print("All Done!")
 
             #at the end of every loop, set next again so that we can continue the loop
